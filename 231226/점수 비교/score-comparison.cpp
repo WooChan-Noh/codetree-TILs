@@ -5,7 +5,7 @@ int main() {
     int aEnglish,aMath,bEnglish,bMath;
     cin>>aMath>>aEnglish>>bMath>>bEnglish;
 
-    if((aEnglish>bEnglish)&&(aMath>>bMath))
+    if((aEnglish>bEnglish)&&(aMath>bMath))
         cout<<1;
     else
         cout<<0;

@@ -4,31 +4,21 @@ int main() {
     int a,b,c;
     cin>>a>>b>>c;
 
-    if(a<b)
+    if(a<b && a<c)
     {
-        if(a<c)
-            cout<<a;
-        if(c<a)
-            cout<<c;
-        return 0;
+        cout<<a;
     }
 
-    if(b<c)
+    if(b<c && b<a)
     {
-        if(b<a)
-            cout<<b;
-        if(a<b)
-            cout<<a;
-        return 0;
+        cout<<b;
     }
 
-    if(c<a)
+    if(c<a && c<b)
     {
-        if(c<b)
-            cout<<c;
-        if(b<c)
-            cout<<b;
-        return 0;
+
+        cout<<c;
+
     }
     // 여기에 코드를 작성해주세요.
     return 0;

@@ -5,7 +5,7 @@ int main() {
     int aMathScore,aEnglishScore,bMathScore,bEnglishScore;
     cin>>aMathScore>>aEnglishScore>>bMathScore>>bEnglishScore;
 
-    if(aMathScore>=bMathScore && aEnglishScore>bEnglishScore)
+    if(aMathScore>bMathScore || (aMathScore==bMathScore && aEnglishScore>bEnglishScore))
     {
         cout<<'A';
     }

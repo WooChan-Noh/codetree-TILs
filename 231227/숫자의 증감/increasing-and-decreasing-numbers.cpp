@@ -13,7 +13,7 @@ int main() {
         }
     }else
     {
-         for(int i=n;1<=n;i--)
+         for(int i=n;1<=i;i--)
         {
             cout<<i<<" ";
         }

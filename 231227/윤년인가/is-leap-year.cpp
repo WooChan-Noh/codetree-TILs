@@ -5,7 +5,11 @@ int main() {
     int year;
     cin>>year;
 
-    if(year%4==0 ||  (year>=400 && year%400==0)) 
+    if(year%4==0) 
+        cout<<"true";
+    else if(year%4==0 && year%100==0)
+        cout<<"false";
+    else if(year%4==0 && year%100==0 && year%400==0)
         cout<<"true";
     else
         cout<<"false";

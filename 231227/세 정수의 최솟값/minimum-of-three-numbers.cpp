@@ -8,17 +8,13 @@ int main() {
     {
         cout<<a;
     }
-
-    if(b<=c && b<=a)
+    else if(b<=c && b<=a)
     {
         cout<<b;
     }
-
-    if(c<=a && c<=b)
+    else if(c<=a && c<=b)
     {
-
         cout<<c;
-
     }
     // 여기에 코드를 작성해주세요.
     return 0;

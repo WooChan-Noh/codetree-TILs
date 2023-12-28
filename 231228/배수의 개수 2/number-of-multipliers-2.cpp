@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n,m,count=0;
-    cin>>n;
+    int n,count=0;
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<10;i++)
     {
-        cin>>m;
-        if(m%2==1);
+        cin>>n;
+        if(n%2==1)
             count++;
     }
     cout<<count;

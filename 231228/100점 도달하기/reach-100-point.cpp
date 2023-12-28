@@ -10,7 +10,7 @@ int main() {
         else if(80<=i)
             cout<<"B ";
         else if(70<=i)
-            cout<<"c ";
+            cout<<"C ";
         else if(60<=i)
             cout<<"D ";
         else

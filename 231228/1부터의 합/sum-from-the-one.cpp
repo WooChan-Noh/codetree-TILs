@@ -5,16 +5,15 @@ int main() {
     cin>>n;
     for(int i=1;i<=100;i++)
     {
-        if(sum+i<=n)
+        if(sum<n)   
             sum+=i;
-        else 
+        else
         {
+            cout<<i-1;
             break;
         }
-            
-        
     }
-    cout<<sum;
+
     // 여기에 코드를 작성해주세요.
     return 0;
 }

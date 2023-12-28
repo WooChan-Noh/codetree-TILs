@@ -14,11 +14,11 @@ int main() {
         units = i%10;
         tens = i/10;
 
-        if(tens%3==0&&i>=10)
+        if(tens%3==0&&tens!=0)
         {
             cout<<0<<" ";
         }
-        else if(units%3==0)
+        else if(units%3==0&&units!=0)
             cout<<0<<" ";
         else  
             cout<<i<<" ";

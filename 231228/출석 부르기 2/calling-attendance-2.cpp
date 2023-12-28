@@ -6,7 +6,7 @@ int main() {
         int n;
         cin>>n;
         if(n==1)
-            cout<<"Jhon"<<endl;
+            cout<<"John"<<endl;
         else if(n==2)
             cout<<"Tom"<<endl;
         else if(n==3)
